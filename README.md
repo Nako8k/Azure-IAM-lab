@@ -4,6 +4,11 @@
 Project consists of a hands-on Azure Entra ID and Access Management setup built inside Microsoft Azure. The lab walks through creating users both manually and via Azure CLI, organizing them into security groups, and assigning built-in RBAC roles across multiple scopes including subscription, resource group, and resource level. A Conditional Access policy requiring MFA was also needed for admin users but will be skipped as it requires a Premium 1 license. In this lab I am using a Free license
 <br />
 
+<h2>Commands & Scripts Used</h2>
+
+- <b>Full CLI command reference:</b> 
+<a href="commands-reference.md">View Commands & Scripts</a>
+
 <h2>Languages and Utilities Used</h2>
 
 - <b>Azure CLI</b>
