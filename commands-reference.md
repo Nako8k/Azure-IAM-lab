@@ -1,5 +1,3 @@
-<h1>Azure IAM - CLI Commands Reference</h1>
-
 <h2>Login & Setup</h2>
 
 ```bash
@@ -48,9 +46,3 @@ az ad group member add --group "AZ-readers" --member-id <user-object-id>
 ```bash
 az role assignment list --all --output table
 ```
-
-<h2>Notes</h2>
-
-- <b>PowerShell</b> was not used in this lab — all commands were run via Azure CLI
-- <b>Custom RBAC JSON role</b> was not configured due to subscription permission limitations
-- <b>Conditional Access</b> commands were not run due to Azure AD Premium P1 license requirement
